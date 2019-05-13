@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Adam",
+		"race": "Human",
+		"class": "Thief",
+		"level": 1,
+		"armor": 16,
+		"ability": {
+			"str": 12,
+			"dex": 9,
+			"int": 6,
+			"wis": 15,
+			"end": 8,
+			"cha": 14
+		},
+		"proficiency": {
+			"skill": [ "deception", "sleight of hand", "persuasion" ],
+			"save": [ "charisma", "wisdom" ],
+			"tool": [ "thieves' tools" ]
+		}
+	}
+]
