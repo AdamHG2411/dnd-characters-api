@@ -7,3 +7,5 @@ router.get('/characters/:id', controller.show);
 router.post('/characters', controller.create);
 router.put('/characters/:id', controller.update);
 router.delete('/characters/:id', controller.delete);
+
+module.exports = router;

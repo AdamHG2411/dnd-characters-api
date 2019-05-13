@@ -7,7 +7,7 @@ module.exports = {
 		});
 	},
 	show: (req, res) => {
-		Character.find({ _id: req.params.id }).then((character) => {
+		Character.findOne({ _id: req.params.id }).then((character) => {
 			res.json(character);
 		});
 	},
@@ -17,12 +17,12 @@ module.exports = {
 		});
 	},
 	update: (req, res) => {
-		Character.update({ _id: req.params.id }, req.body).then((character) => {
+		Character.updateOne({ _id: req.params.id }, req.body).then((character) => {
 			res.json(character);
 		});
 	},
 	delete: (req, res) => {
-		Character.delete({ _id: req.params.id }).then((character) => {
+		Character.deleteOne({ _id: req.params.id }).then((character) => {
 			res.json(character);
 		});
 	}
