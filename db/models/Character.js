@@ -1,13 +1,6 @@
 const mongoose = require('../connection.js');
 const Schema = mongoose.Schema;
 
-//form: name (text), race(radio), class(radio), background(radio), alignment(radio), armor
-
-//random: abilities
-//class -> hitDie, hitPoints.max
-//ability -> abilityMods, skillMods
-//misc -> proficiency
-
 const Character = new Schema({
 	name: String,
 	race: String,

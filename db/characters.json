@@ -1,42 +1,281 @@
 [
 	{
-		"name": "Adam",
-		"race": "Human",
-		"class": "Thief",
-		"level": 1,
-		"armor": 16,
-		"ability": {
-			"str": 12,
-			"dex": 9,
-			"int": 6,
-			"wis": 15,
-			"end": 8,
-			"cha": 14
+		"hitPoints": {
+			"temp": 0,
+			"max": 23,
+			"cur": 23
 		},
-		"proficiency": {
-			"skill": [ "deception", "sleight of hand", "persuasion" ],
-			"save": [ "charisma", "wisdom" ],
-			"tool": [ "thieves' tools" ]
-		}
-	},
-	{
-		"name": "Maria",
-		"race": "Half-elf",
-		"class": "Wizard",
-		"level": 2,
-		"armor": 12,
 		"ability": {
 			"str": 8,
-			"dex": 9,
-			"int": 15,
-			"wis": 16,
-			"end": 10,
-			"cha": 11
+			"int": 10,
+			"cha": 13,
+			"wis": 15,
+			"dex": 15,
+			"con": 15
 		},
 		"proficiency": {
-			"skill": [ "illusion", "destruction", "persuasion" ],
-			"save": [ "charisma", "intelligence" ],
-			"tool": [ "alchemy kit" ]
-		}
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc20a9cf71334fb61f0318",
+		"name": "Frodo Baggins",
+		"race": "Halfling",
+		"class": "Monk",
+		"background": "FolkHero",
+		"alignment": "Lawful Good",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 23,
+			"cur": 23
+		},
+		"ability": {
+			"int": 7,
+			"str": 8,
+			"dex": 10,
+			"wis": 11,
+			"cha": 14,
+			"con": 15
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc20ddcf71334fb61f0319",
+		"name": "Samwise Gamgee",
+		"race": "Halfling",
+		"class": "Monk",
+		"background": "FolkHero",
+		"alignment": "Lawful Good",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 24,
+			"cur": 24
+		},
+		"ability": {
+			"int": 12,
+			"str": 13,
+			"dex": 15,
+			"wis": 15,
+			"cha": 15,
+			"con": 16
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc2125cf71334fb61f031a",
+		"name": "Meriadoc Brandybuck",
+		"race": "Halfling",
+		"class": "Paladin",
+		"background": "Soldier",
+		"alignment": "Neutral Good",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 26,
+			"cur": 26
+		},
+		"ability": {
+			"int": 7,
+			"str": 13,
+			"dex": 13,
+			"wis": 14,
+			"cha": 15,
+			"con": 18
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc2134cf71334fb61f031b",
+		"name": "Peregrin Took",
+		"race": "Halfling",
+		"class": "Paladin",
+		"background": "Soldier",
+		"alignment": "Chaotic Good",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 18,
+			"cur": 18
+		},
+		"ability": {
+			"str": 10,
+			"wis": 10,
+			"con": 10,
+			"int": 10,
+			"cha": 13,
+			"dex": 14
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc2171cf71334fb61f031c",
+		"name": "Aragorn",
+		"race": "Human",
+		"class": "Ranger",
+		"background": "Noble",
+		"alignment": "Lawful Good",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 19,
+			"cur": 19
+		},
+		"ability": {
+			"str": 7,
+			"int": 8,
+			"cha": 9,
+			"wis": 10,
+			"con": 11,
+			"dex": 13
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc21decf71334fb61f031d",
+		"name": "Legolas",
+		"race": "Elf",
+		"class": "Ranger",
+		"background": "Noble",
+		"alignment": "Lawful Neutral",
+		"hitDie": 8,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 23,
+			"cur": 23
+		},
+		"ability": {
+			"wis": 9,
+			"int": 10,
+			"dex": 11,
+			"cha": 12,
+			"str": 13,
+			"con": 13
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc2212cf71334fb61f031e",
+		"name": "Gimli",
+		"race": "Dwarf",
+		"class": "Fighter",
+		"background": "Noble",
+		"alignment": "Neutral Good",
+		"hitDie": 10,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 17,
+			"cur": 17
+		},
+		"ability": {
+			"str": 9,
+			"dex": 10,
+			"con": 11,
+			"wis": 12,
+			"cha": 13,
+			"int": 13
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc2241cf71334fb61f031f",
+		"name": "Gandalf",
+		"race": "Human",
+		"class": "Wizard",
+		"background": "Sage",
+		"alignment": "Lawful Good",
+		"hitDie": 6,
+		"__v": 0
+	},
+	{
+		"hitPoints": {
+			"temp": 0,
+			"max": 23,
+			"cur": 23
+		},
+		"ability": {
+			"int": 9,
+			"dex": 10,
+			"cha": 11,
+			"wis": 12,
+			"con": 13,
+			"str": 13
+		},
+		"proficiency": {
+			"weapon": [],
+			"armor": [],
+			"skill": [],
+			"save": []
+		},
+		"level": 1,
+		"profMod": 2,
+		"_id": "5cdc227bcf71334fb61f0320",
+		"name": "Boromir",
+		"race": "Human",
+		"class": "Fighter",
+		"background": "Noble",
+		"alignment": "True Neutral",
+		"hitDie": 10,
+		"__v": 0
 	}
 ]
